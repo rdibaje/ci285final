@@ -1,1 +1,3 @@
-# ci285final
+- To build, first clone the repository, then cd into the folder and run stack build.
+- After the build completes, execute stack runghc Main.hs. This should fire up a webserver on port 8080. (The port number can be changed via the last line in the Main.hs file.)
+- localhost:8080/add/10/20 would send a RESTful GET request to add 10 and 20, etc. (Replace add with sub and mul for subtraction and multiplication respectively.)
